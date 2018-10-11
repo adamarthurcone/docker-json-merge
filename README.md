@@ -13,3 +13,6 @@ docker run --rm -v $(pwd):/data \
 -e GUEST_INPUT_FILE=input.json \
 -e GUEST_OUTPUT_FILE=/data/output.json \
 merge-json:latest
+
+# docker-json-merge
+Merge contents of input json file into output json file
